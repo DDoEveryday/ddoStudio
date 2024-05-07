@@ -1,0 +1,28 @@
+.mainboard {
+  height: 800px;
+  text-align: center;
+  width: 100%;
+  font-family: "Noto Sans KR";
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainarticle{
+  margin-left: var(--space-5);
+}
+
+.title {
+  font-size: var(--font-dongle-lg);
+}
+
+.subtitle {
+  font-size: var(--font-dongle-md);
+}
+
+.mainimg {
+  position: absolute;
+  top:0;
+  background-color: black;
+}
