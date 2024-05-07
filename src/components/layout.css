@@ -1,20 +1,21 @@
 :root {
   --border-radius: 4px;
-  --color-background:white;
+  --color-background: white;
   --color-text: #333;
-  --color-primary: #7026b9;
+  --color-grey: rgb(91, 91, 91);
+  --color-primary: #fff6f0;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
-  --font-title-lg: 60px;
+  --font-title-lg: 80px;
   --font-title-md: 40px;
-  --font-lg: 18px;
-  --font-md: 16px;
-  --font-sm: 14px;
-  --font-sx: 12px;
+  --font-lg: 20px;
+  --font-md: 18px;
+  --font-sm: 16px;
+  --font-sx: 14px;
   --line-height-loose: 1.75;
   --line-height-normal: 1.5;
   --line-height-dense: 1.1;
@@ -31,7 +32,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
-  font: sans-serif;
+  font-family: "Noto Sans KR";
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
@@ -41,7 +42,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--color-text);
-  font-family: var(--font-sans);
+  /* font-family: var(--font-sans); */
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;

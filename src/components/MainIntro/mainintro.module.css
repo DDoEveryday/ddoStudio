@@ -1,0 +1,33 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  height: 800px;
+}
+
+.profile {
+  max-width: 400px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.subsection {
+  margin-left: var(--space-6);
+  color:var(--color-grey)
+}
+
+.article {
+  font-size: var(--font-lg);
+  max-width: 800px;
+  margin-bottom: var(--space-5);
+}
+
+.article p {
+  margin-bottom: var(--space-3);
+}
+
+.article p:first-child {
+  font-weight: bold;
+  margin-bottom: var(--space-3);
+}

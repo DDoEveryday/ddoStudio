@@ -3,7 +3,6 @@
   text-align: center;
   width: 100%;
   font-family: "Noto Sans KR";
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +11,8 @@
 
 .mainarticle{
   margin-left: var(--space-5);
+  position:relative;
+  top:-100px;
 }
 
 .title {
