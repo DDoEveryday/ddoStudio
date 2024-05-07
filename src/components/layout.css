@@ -9,8 +9,8 @@
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
-  --font-dongle-lg: 60px;
-  --font-dongle-md: 50px;
+  --font-title-lg: 60px;
+  --font-title-md: 40px;
   --font-lg: 18px;
   --font-md: 16px;
   --font-sm: 14px;
