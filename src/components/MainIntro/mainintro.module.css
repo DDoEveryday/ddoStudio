@@ -14,7 +14,7 @@
 
 .subsection {
   margin-left: var(--space-6);
-  color:var(--color-grey)
+  color: var(--color-grey);
 }
 
 .article {

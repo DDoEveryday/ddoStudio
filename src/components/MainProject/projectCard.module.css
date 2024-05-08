@@ -1,0 +1,24 @@
+.projectCard {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: rgb(255, 240, 242);
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 70%;
+  border-radius: 1.5rem;
+  padding:1rem;
+}
+
+.projectCard article{
+    text-align: center;
+}
+
+.projectCard:hover{
+    background-color: rgb(250, 219, 224);
+}
+
+.projectCard article:first-child{
+    margin-right:2rem;
+}
+
