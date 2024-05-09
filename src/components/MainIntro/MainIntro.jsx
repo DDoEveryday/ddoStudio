@@ -5,7 +5,11 @@ import React from "react"
 const MainIntro = () => {
   return (
     <section className={styles.section}>
-      <StaticImage alt="profile" className={styles.profile} src="../../images/profile.jpeg" />
+      <StaticImage
+        alt="profile"
+        className={styles.profile}
+        src="../../images/profile__main.jpeg"
+      />
       <section className={styles.subsection}>
         <article className={styles.article}>
           <p>뚜에블뎅은 누구인가?</p>
