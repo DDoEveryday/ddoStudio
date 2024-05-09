@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import MainBoard from "../components/MainBoard/MainBoard.jsx"
 import MainProject from "../components/MainProject/MainProject.jsx"
 import { graphql } from "gatsby"
-import MainIntro from "../components/MainIntro/mainIntro.jsx"
+import MainIntro from "../components/MainIntro/MainIntro.jsx"
 
 const IndexPage = ({ data }) => {
   const projects = data.allMarkdownRemark.edges.map(d => d.node.frontmatter)
