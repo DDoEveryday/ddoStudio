@@ -21,7 +21,7 @@ export const Head = () => (
   <Seo
     title="DDo Studio"
     description="뚜에블뎅 스튜디오입니다."
-    image={`/src/images/mainImg.png`}
+    image="https://ddostudio.netlify.app/static/mainImg.png"
   />
 )
 
