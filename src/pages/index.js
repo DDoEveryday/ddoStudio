@@ -1,14 +1,12 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
 import MainBoard from "../components/MainBoard/MainBoard.jsx"
-import MainIntro from "../components/MainIntro/MainIntro"
 import MainProject from "../components/MainProject/MainProject.jsx"
 import { graphql } from "gatsby"
+import MainIntro from "../components/MainIntro/mainIntro.jsx"
 
 const IndexPage = ({ data }) => {
-  console.log("data", data)
   const projects = data.allMarkdownRemark.edges.map(d => d.node.frontmatter)
   return (
     <Layout>

@@ -13,6 +13,7 @@ module.exports = {
     description: `그림과 개발 공간`,
     author: `@뚜에블뎅`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    image: `../images/mainImg.png`,
   },
   plugins: [
     `gatsby-plugin-image`,
