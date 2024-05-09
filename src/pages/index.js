@@ -17,7 +17,13 @@ const IndexPage = ({ data }) => {
   )
 }
 
-export const Head = () => <Seo title="DDo Studio" />
+export const Head = () => (
+  <Seo
+    title="DDo Studio"
+    description="뚜에블뎅 스튜디오입니다."
+    image={`/src/images/mainImg.png`}
+  />
+)
 
 export default IndexPage
 

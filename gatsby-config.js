@@ -9,11 +9,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `MAIN`,
+    title: `뚜에블뎅 스튜디오`,
     description: `그림과 개발 공간`,
     author: `@뚜에블뎅`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
-    image: `../images/mainImg.png`,
+    siteUrl: `https://ddostudio.netlify.app/`,
+    image: "",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -41,11 +41,8 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo-710x710.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-710x710.png`,
       },
     },
   ],
