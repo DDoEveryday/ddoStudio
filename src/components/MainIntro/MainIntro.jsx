@@ -12,10 +12,10 @@ const MainIntro = () => {
       />
       <section className={styles.subsection}>
         <article className={styles.article}>
-          <p>뚜에블뎅은 누구인가?</p>
+          <p>뚜에데이는 누구인가?</p>
           <p>
             안녕하세요! 일러스트가 돋보이는 게임을 제작하는 1인 개발자
-            뚜에블뎅입니다!
+            뚜에데이입니다!
           </p>
           <p>저는 취미로 그림그리는 것을 참 좋아했는데요…!</p>
           <p>
@@ -29,7 +29,7 @@ const MainIntro = () => {
           </p>
         </article>
         <article className={styles.article}>
-          <p>뚜에블뎅의 비전</p>
+          <p>뚜에데이의 비전</p>
           <p>
             저는 앞으로 일러스트레이터가 돋보이는 소프트웨어를 제작하고 싶어요.
           </p>

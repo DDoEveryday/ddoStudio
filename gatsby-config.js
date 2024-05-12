@@ -9,9 +9,9 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `뚜에블뎅 스튜디오`,
+    title: `뚜에데이 스튜디오`,
     description: `그림과 개발 공간`,
-    author: `@뚜에블뎅`,
+    author: `@DDoEDay`,
     siteUrl: `https://ddostudio.netlify.app/`,
     image: "https://ddostudio.netlify.app/static/mainImg.png",
   },

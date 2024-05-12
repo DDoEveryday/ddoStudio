@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: center;
   background-color: var(--color-primary);
-  height: 800px;
+  min-height: 800px;
+  padding: var(--space-5);
 }
 
 .profile {
@@ -30,4 +31,19 @@
 .article p:first-child {
   font-weight: bold;
   margin-bottom: var(--space-3);
+}
+
+@media screen and (max-width: 1032px) {
+  .section {
+    flex-direction: column;
+  }
+
+  .profile {
+    margin-bottom: var(--space-5);
+  }
+  
+  .subsection {
+    margin-left: 0;
+    padding: var(--space-3);
+  }
 }

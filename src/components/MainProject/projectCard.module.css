@@ -5,20 +5,29 @@
   background-color: rgb(255, 240, 242);
   margin: 0 auto;
   margin-bottom: 2rem;
-  width: 70%;
+  width: 90%;
+  max-width: 900px;
   border-radius: 1.5rem;
-  padding:1rem;
+  padding: 1rem;
+  align-items: center;
 }
 
-.projectCard article{
-    text-align: center;
+.projectCard:hover {
+  background-color: rgb(250, 219, 224);
 }
 
-.projectCard:hover{
-    background-color: rgb(250, 219, 224);
+.title {
+  margin-right: 2rem;
+  text-align: center;
 }
 
-.projectCard article:first-child{
-    margin-right:2rem;
-}
+@media screen and (max-width: 768px) {
+  .projectCard {
+    flex-direction: column;
+  }
 
+  .title {
+    margin-right: 0;
+    margin-bottom: var(--space-3);
+  }
+}

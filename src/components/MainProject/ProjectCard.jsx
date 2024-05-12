@@ -6,12 +6,12 @@ export const ProjectCard = ({ title, date, image, alt }) => {
   console.log("title", title, "date", date, "image", image, "alt", alt)
   return (
     <section className={styles.projectCard}>
-      <article>
+      <article className={styles.title}>
         <p>{title}</p>
         <p>{date}</p>
         <GatsbyImage alt={alt} image={getImage(image)} width={400} />
       </article>
-      <article>
+      <article className={styles.description}>
         <p>
           My Daily Look은 성인들도 즐길 수 있는 심플 캐쥬얼 옷입히기 게임입니다.
         </p>

@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "뚜에블뎅 <dudgk6382@gmail.com>",
+  "author": "뚜에데이 <yeongha@gmail.com>",
   "dependencies": {
     "@fontsource/dongle": "^5.0.19",
     "@fontsource/noto-sans-kr": "^5.0.19",

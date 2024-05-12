@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => {
 export const Head = () => (
   <Seo
     title="DDo Studio"
-    description="뚜에블뎅 스튜디오입니다."
+    description="뚜에데이 스튜디오입니다."
   />
 )
 

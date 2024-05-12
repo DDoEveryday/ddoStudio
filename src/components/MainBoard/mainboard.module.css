@@ -1,11 +1,12 @@
 .mainboard {
-  height: 800px;
+  min-height: 800px;
   text-align: center;
   width: 100%;
   font-family: "Noto Sans KR";
   display: flex;
   align-items: center;
   justify-content: center;
+  /* flex-wrap: wrap; */
 }
 
 .mainarticle {
@@ -27,4 +28,23 @@
   position: absolute;
   top: 0;
   background-color: black;
+}
+
+@media screen and (max-width: 1032px) {
+  .mainboard {
+    flex-direction: column;
+    padding-bottom: var(--space-5);
+  }
+
+  .mainarticle {
+    margin-left: 0;
+    top: 0px;
+  }
+
+  .title {
+    /* font-size: var(--font-title-md); */
+  }
+  .subtitle {
+    /* font-size: var(--font-lg); */
+  }
 }

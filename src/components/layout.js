@@ -19,11 +19,13 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
-        style={{
-          // margin: `0 auto`,
-          // maxWidth: `var(--size-content)`,
-          // padding: `var(--size-gutter)`,
-        }}
+        style={
+          {
+            // margin: `0 auto`,
+            // maxWidth: `var(--size-content)`,
+            // padding: `var(--size-gutter)`,
+          }
+        }
       >
         <main>{children}</main>
         <footer
@@ -32,7 +34,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          {/* © {new Date().getFullYear()} Made by 뚜에블뎅 */}
+          {/* © {new Date().getFullYear()} Made by 뚜에데이 */}
         </footer>
       </div>
     </>
