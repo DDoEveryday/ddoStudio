@@ -2,7 +2,6 @@ import React from "react"
 import * as styles from "./mainboard.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import InstagramIcon from "@mui/icons-material/Instagram"
-import BorderColorIcon from "@mui/icons-material/BorderColor"
 import CreateIcon from "@mui/icons-material/Create"
 
 const MainBoard = () => {
@@ -11,7 +10,6 @@ const MainBoard = () => {
       <StaticImage
         alt="mainimage"
         src="../../images/mainImg.png"
-        // width값이 모니터 해상도에 따라 동작될 때가 있고 안될 때가 있음
         className="mainimg"
         width={500}
       />
