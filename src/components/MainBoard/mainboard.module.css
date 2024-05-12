@@ -23,6 +23,10 @@
   font-size: var(--font-title-md);
 }
 
+.mainboard img {
+  width: 500px;
+}
+
 .navgroup {
   margin: var(--space-5) 0;
 }
@@ -79,6 +83,7 @@
 
   .subtitle {
     font-size: var(--font-lg);
+    margin-top: var(--space-4);
   }
 
   .mainboard img {
