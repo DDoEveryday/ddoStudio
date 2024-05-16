@@ -8,7 +8,7 @@ const MainIntro = () => {
       <StaticImage
         alt="profile"
         className={styles.profile}
-        src="../../images/profile__main.jpeg"
+        src="../../images/rgb-animals.png"
       />
       <section className={styles.subsection}>
         <article className={styles.article}>
