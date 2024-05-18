@@ -36,7 +36,6 @@ const MainIntro = () => {
             src="../../images/rgb-fun.png"
             className="mainimg"
             width={500}
-            layout="fixed"
           />
         ) : (
           <StaticImage
@@ -44,7 +43,6 @@ const MainIntro = () => {
             src="../../images/rgb.png"
             className="mainimg"
             width={500}
-            layout="fixed"
           />
         )}
       </div>
