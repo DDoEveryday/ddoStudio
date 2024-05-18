@@ -1,22 +1,15 @@
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./mainintro.module.css"
 import React, { useState, useEffect, useRef } from "react"
+import MainMusic from "../../assets/main_music.mp3"
 
 const MainIntro = () => {
   const [toggle, setToggle] = useState(false)
-  const audioRef = useRef(new Audio("/main_music.mp3"))
-  const [isAudioLoaded, setIsAudioLoaded] = useState(false)
-
-  useEffect(() => {
-    const audio = audioRef.current
-    audio.onloadeddata = () => {
-      setIsAudioLoaded(true)
-    }
-  }, [])
+  const audioRef = useRef(null)
 
   const onAudioPlay = () => {
     const audio = audioRef.current
-    if (audio && isAudioLoaded) {
+    if (audio) {
       if (audio.paused) {
         audio.currentTime = 10
         audio.play()
@@ -28,12 +21,6 @@ const MainIntro = () => {
 
   return (
     <section className={styles.section}>
-      {/* <StaticImage
-        alt="profile"
-        className={styles.profile}
-        src="../../images/rgb-animals.png"
-      /> */}
-
       <div
         style={{
           cursor: "pointer",
@@ -61,6 +48,8 @@ const MainIntro = () => {
           />
         )}
       </div>
+
+      <audio ref={audioRef} src={MainMusic} />
 
       <section className={styles.subsection}>
         <article className={styles.article}>
