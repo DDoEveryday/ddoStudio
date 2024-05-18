@@ -12,7 +12,7 @@ function Seo({ title, description, children }) {
             author
           }
         }
-        file(name: { eq: "mainImg" }) {
+        file(name: { eq: "rgb" }) {
           publicURL
         }
       }
