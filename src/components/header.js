@@ -20,7 +20,7 @@ const Header = () => (
         fontWeight:'bold'
       }}
     >
-      DDO STUDIO
+      뚜에데이
     </Link>
   </header>
 )

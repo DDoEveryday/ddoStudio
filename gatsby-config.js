@@ -35,6 +35,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-image`,
+      options: {
+        fadeIn: false,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

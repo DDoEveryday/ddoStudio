@@ -1,15 +1,67 @@
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./mainintro.module.css"
-import React from "react"
+import React, { useState, useEffect, useRef } from "react"
 
 const MainIntro = () => {
+  const [toggle, setToggle] = useState(false)
+  const audioRef = useRef(new Audio("/main_music.mp3"))
+  const [isAudioLoaded, setIsAudioLoaded] = useState(false)
+
+  useEffect(() => {
+    const audio = audioRef.current
+    audio.onloadeddata = () => {
+      setIsAudioLoaded(true)
+    }
+  }, [])
+
+  const onAudioPlay = () => {
+    const audio = audioRef.current
+    if (audio && isAudioLoaded) {
+      if (audio.paused) {
+        audio.currentTime = 10
+        audio.play()
+      } else {
+        audio.pause()
+      }
+    }
+  }
+
   return (
     <section className={styles.section}>
-      <StaticImage
+      {/* <StaticImage
         alt="profile"
         className={styles.profile}
         src="../../images/rgb-animals.png"
-      />
+      /> */}
+
+      <div
+        style={{
+          cursor: "pointer",
+        }}
+        onClick={() => {
+          setToggle(prevToggle => !prevToggle)
+          onAudioPlay()
+        }}
+      >
+        {toggle ? (
+          <StaticImage
+            alt="mainimage"
+            src="../../images/rgb-fun.png"
+            className="mainimg"
+            width={500}
+            layout="fixed"
+          />
+        ) : (
+          <StaticImage
+            alt="mainimage"
+            src="../../images/rgb.png"
+            className="mainimg"
+            width={500}
+            layout="fixed"
+          />
+        )}
+      </div>
+
       <section className={styles.subsection}>
         <article className={styles.article}>
           <p>뚜에데이는 누구인가?</p>
